@@ -1,0 +1,363 @@
+//.topleft,
+.topright,
+.midleft,
+.mid,
+.midright,
+.botleft,
+.botright {
+  border: 1px solid green;
+}
+
+
+/* ADD YOUR CSS STYLES BELOW */
+
+#box-1 {
+  height: 40%
+}
+
+#box-2 {
+  height: 10%
+}
+
+#box-3 {
+  height: 10%
+}
+
+#box-4 {
+  height: 40%
+}
+
+.container-1 {
+  position: relative;
+  width: 27%;
+  height: 100%;
+  background: midnightblue;
+  float: left;
+}
+
+.c1-box-1 {
+  position: relative;
+  background: midnightblue;
+}
+
+.c1-box-2 {
+  position: relative;
+  background: orangered;
+}
+
+.c1-box-3 {
+  position: relative;
+  background: yellow;
+}
+
+.c1-box-4 {
+  position: relative;
+  background: steelblue;
+}
+
+.container-2 {
+  position: relative;
+  width: 16%;
+  height: 100%;
+  background: orangered;
+  float: left;
+}
+
+.c2-box-1 {
+  position: relative;
+  background: orangered;
+}
+
+.c2-box-2 {
+  position: relative;
+  background: orangered;
+}
+
+.c2-box-3 {
+  position: relative;
+  background: yellow;
+}
+
+.c2-box-4 {
+  position: relative;
+  background: yellow;
+}
+
+.container-3 {
+  position: relative;
+  width: 7%;
+  height: 100%;
+  background: midnightblue;
+  float: left;
+}
+
+.c3-box-1 {
+  position: relative;
+  background: midnightblue;
+}
+
+.c3-box-2 {
+  position: relative;
+  background: orangered;
+}
+
+.c3-box-3 {
+  position: relative;
+  background: yellow;
+}
+
+.c3-box-4 {
+  position: relative;
+  background: steelblue;
+}
+
+.container-4 {
+  position: relative;
+  width: 27%;
+  height: 100%;
+  background: steelblue;
+  float: left;
+}
+
+.c4-box-1 {
+  position: relative;
+  background: steelblue;
+}
+
+.c4-box-2 {
+  position: relative;
+  background: yellow;
+}
+
+.c4-box-3 {
+  position: relative;
+  background: lightyellow;
+}
+
+.c4-box-4 {
+  position: relative;
+  background: midnightblue;
+}
+
+.container-5 {
+  position: relative;
+  width: 23%;
+  height: 100%;
+  background: turquoise;
+  float: left;
+}
+
+.c5-box-1 {
+  position: relative;
+  background: turquoise;
+}
+
+.c5-box-2 {
+  position: relative;
+  background: lightyellow;
+}
+
+.c5-box-3 {
+  position: relative;
+  background: orange;
+}
+
+.c5-box-4 {
+  position: relative;
+  background: hotpink;
+}
+
+
+/*.tlbox1 {
+  position: relative;
+  background: orangered;
+  height: 100%;
+  width: 30%;
+  float:right;
+  margin-right: 15%;
+}
+.topright {
+  width: 50%;
+  height: 40%;
+  background: steelblue;
+  float: left;
+}
+.trbox1 {
+  position: relative;
+  background: turquoise;
+  height: 100%;
+  width: 45%;
+  float:right;
+
+}
+.midleft {
+  width: 50%;
+  height: 20%;
+  background: gold;
+  float: left;
+}
+.mlbox1 {
+  position: relative;
+  background: orangered;
+  height: 50%;
+  width: 100%;
+
+}
+.midmid {
+  width: 27.5%;
+  height: 20%;
+  background: olive;
+  float: left;
+}
+.mbox1 {
+  position: relative;
+  background: gold;
+  height: 50%;
+  width: 100%;
+ }
+
+.midright {
+  width: 22.5%;
+  height: 20%;
+  background: olive;
+  float: left;
+}
+.mrbox1 {
+  position: relative;
+  background: lightyellow;
+  height: 50%;
+  width: 100%;
+  float:left;
+ }
+.mrbox2 {
+  position: relative;
+  background: orange;
+  height: 50%;
+  width: 100%;
+  float:left;
+ }
+.botleft {
+  width: 50%;
+  height: 40%;
+  background: steelblue;
+  float: left;
+}
+.blbox1 {
+  position: relative;
+  background: gold;
+  height: 100%;
+  width: 30%;
+  float:right;
+  margin-right: 15%;
+}
+.botright {
+  width: 50%;
+  height: 40%;
+  background: darkblue;
+  float: left;
+}
+.brbox1 {
+  position: relative;
+  background: hotpink;
+  height: 100%;
+  width: 45%;
+  float:right;
+
+}
+
+
+/* DON'T DELETE THIS */
+
+#flag-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+
+/* Clear Float */
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+@media screen and (max-width:600px) {
+  .c1-box-1 {
+    background: hotpink;
+  }
+  .c3-box-1 {
+    background: hotpink;
+  }
+  .c4-box-4 {
+    background: hotpink;
+  }
+  .c5-box-4 {
+    background: midnightblue;
+  }
+  .c1-box-2 {
+    background: yellow;
+  }
+  .c2-box-1 {
+    background: yellow;
+  }
+  .c2-box-2 {
+    background: yellow;
+  }
+  .c3-box-2 {
+    background: yellow;
+  }
+  .c1-box-3 {
+    background: orangered;
+  }
+  .c2-box-3 {
+    background: orangered;
+  }
+  .c3-box-3 {
+    background: orangered;
+  }
+  .c2-box-4 {
+    background: orangered;
+  }
+  .c1-box-4 {
+    background: turquoise;
+  }
+  .c3-box-4 {
+    background: turquoise;
+  }
+  .c4-box-1 {
+    background: turquoise;
+  }
+  .c5-box-1 {
+    background: steelblue;
+  }
+
+}
